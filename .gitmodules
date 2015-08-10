@@ -1,3 +1,6 @@
 [submodule "esptool-ck"]
 	path = esptool-ck
 	url = https://github.com/tommie/esptool-ck
+[submodule "esptool-py"]
+	path = esptool-py
+	url = https://github.com/themadinventor/esptool
