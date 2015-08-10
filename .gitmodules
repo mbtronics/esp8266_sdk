@@ -1,0 +1,3 @@
+[submodule "esptool-ck"]
+	path = esptool-ck
+	url = https://github.com/tommie/esptool-ck
