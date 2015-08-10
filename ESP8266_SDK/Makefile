@@ -12,11 +12,11 @@ ifeq ($(COMPILE), gcc)
 	OBJCOPY = xtensa-lx106-elf-objcopy
 	OBJDUMP = xtensa-lx106-elf-objdump
 else
-	AR = xt-ar
-	CC = xt-xcc
+	AR = xtensa-lx106-elf-ar
+	CC = xtensa-lx106-elf-gcc
 	NM = xt-nm
 	CPP = xt-cpp
-	OBJCOPY = xt-objcopy
+	OBJCOPY = xtensa-lx106-elf-objcopy
 	OBJDUMP = xt-objdump
 endif
 
