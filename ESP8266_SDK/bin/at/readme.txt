@@ -1,18 +1,9 @@
-There are two ways to download AT FW
-
-(1)Old
-
 download:
-boot_v1.1.bin      0x00000
-user1.512.old.bin  0x01000
-blank.bin          0x3e000 & 0x7e000
+boot_v1.2+.bin      0x00000
+user1.1024.new.2.bin  0x01000
+blank.bin           0x7e000 & 0xfe000
 
-(2)New ( Espressif recommended )
-
-download:
-boot_v1.2.bin      0x00000
-user1.512.new.bin  0x01000
-blank.bin          0x3e000 & 0x7e000
+*NOTICE*: If you use Esp Flash Download Tool, please MAKE SURE to choose FLASH SIZE to 8Mbit.
 
 
 Update steps
